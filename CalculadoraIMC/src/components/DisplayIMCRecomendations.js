@@ -6,10 +6,10 @@ import sobrepeso from "../../assets/sobrepeso.png";
 import grau1 from "../../assets/grau1.png";
 import grau2 from "../../assets/grau2.png";
 import morbida from "../../assets/morbida.jpg";
-const Result = ({ imc }) => {
+const Display = ({ imc }) => {
     return (
-        <>
-        <Text style={styles.title}>Tabela de IMC: {imc}</Text>
+        <View style={styles.container}>
+        <Text style={styles.title}>Tabela de IMC</Text>
         <View  style={styles.flexrow}>
             <View>
                 <Text style={styles.imcHeader}>Menor que 18.5</Text>
@@ -52,10 +52,13 @@ const Result = ({ imc }) => {
             </View>
             <Image style={styles.imcImage} source= {morbida}/>
         </View>
-        </>
+        </View>
     );
 };
 const styles = StyleSheet.create({
+    container: {
+        padding: 16,
+    },
     flexrow: {
         display: "flex",
         flexDirection: "row"
@@ -84,4 +87,4 @@ const styles = StyleSheet.create({
     },
     
 });
-export default Result;
+export default Display;

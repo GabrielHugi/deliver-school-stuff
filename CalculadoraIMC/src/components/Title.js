@@ -1,12 +1,18 @@
-import { Text, StyleSheet } from 'react-native';
+import { Text, StyleSheet, View } from 'react-native';
 
 const Title = () => {
     return (
-        <Text style={styles.title}>Calculadora de IMC</Text>
+        <View style={styles.view}>
+            <Text style={styles.title}>Calculadora de IMC</Text>
+        </View>
     );
 };
 
 const styles = StyleSheet.create({
+    view: {
+        backgroundColor: "#c5f3ff",
+        //e#c5f3ff
+    },
     title: {
         fontSize: 32,
         fontweight: 'bold',

@@ -24,3 +24,7 @@ Usei a formula provida para calcular os pesos ideais e usei o Math.round para ar
 #### DisplayIMCRecomendations
 
 Usei as tags View (div) e Image (img) e um pouco de arte para fazer esse arquivo.
+
+#### Geral
+
+Adicionei alguns componentes extras e usei css para deixar tudo bonito

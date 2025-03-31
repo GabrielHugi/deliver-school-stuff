@@ -19,7 +19,7 @@ npx expo start --tunnel
 
 #### IdealWeight
 
-Usei a formula para calcular provida para calcularo os pesos ideais e usei o Math.round para aredondar o valor.
+Usei a formula provida para calcular os pesos ideais e usei o Math.round para aredondar o valor.
 
 #### DisplayIMCRecomendations
 

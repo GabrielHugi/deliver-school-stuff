@@ -14,10 +14,10 @@ const styles = StyleSheet.create({
         //e#c5f3ff
     },
     title: {
-        fontSize: 32,
+        marginTop: 8, marginBottom: 8,
+        fontSize: 36,
         fontweight: 'bold',
         textAlign: 'center',
-        marginBottom: 24,
     },
 });
 export default Title;

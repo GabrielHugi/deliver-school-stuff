@@ -11,42 +11,42 @@ const Display = ({ imc }) => {
         <View style={styles.container}>
         <Text style={styles.title}>Tabela de IMC</Text>
         <View  style={styles.flexrow}>
-            <View>
+            <View style={styles.divelement}>
                 <Text style={styles.imcHeader}>Menor que 18.5</Text>
                 <Text style={styles.imcText}>Abaixo do peso</Text>
             </View>
             <Image style={styles.imcImage} source= {magrelo}/>
         </View>
         <View  style={styles.flexrow}>
-            <View>
+            <View style={styles.divelement}>
                 <Text style={styles.imcHeader}>Entre 18.5 e 24.9</Text>
                 <Text style={styles.imcText}>Peso normal</Text>
             </View>
             <Image style={styles.imcImage} source= {normal}/>
         </View>
         <View  style={styles.flexrow}>
-            <View>
+            <View style={styles.divelement}>
                 <Text style={styles.imcHeader}>Entre 25 e 29.9</Text>
                 <Text style={styles.imcText}>Sobrepeso</Text>
             </View>
             <Image style={styles.imcImage} source= {sobrepeso}/>
         </View>
         <View  style={styles.flexrow}>
-            <View>
+            <View style={styles.divelement}>
                 <Text style={styles.imcHeader}>Entre 30 e 34.9</Text>
                 <Text style={styles.imcText}>Obesidade grau I</Text>
             </View>
             <Image style={styles.imcImage} source= {grau1}/>
         </View>
         <View  style={styles.flexrow}>
-            <View>
+            <View style={styles.divelement}>
                 <Text style={styles.imcHeader}>Entre 35 e 39.9</Text>
                 <Text style={styles.imcText}>Obesidade grau II</Text>
             </View>
             <Image style={styles.imcImage} source= {grau2}/>
         </View>
         <View  style={styles.flexrow}>
-            <View>
+            <View style={styles.divelement}>
                 <Text style={styles.imcHeader}>Maior que 40</Text>
                 <Text style={styles.imcText}>Obesidade morbida</Text>
             </View>
@@ -56,15 +56,23 @@ const Display = ({ imc }) => {
     );
 };
 const styles = StyleSheet.create({
+    divelement: {
+        minWidth: 250,
+        borderRightWidth: 1,
+        paddingRight: 20,
+    },
     container: {
         padding: 16,
     },
     flexrow: {
         display: "flex",
-        flexDirection: "row"
+        flexDirection: "row",
+        borderBottomWidth: 1,
+        borderTopWidth: 1,
+        padding: 4,
     },
     title: {
-        marginTop: 20,
+        marginTop: 5,
         marginBottom: 20,
         fontSize: 36,
         textAlign: 'center',
@@ -82,6 +90,8 @@ const styles = StyleSheet.create({
         textAlign: 'left',
     },
     imcImage: {
+        marginLeft: "auto",
+        marginRight: "auto",
         width: 100,
         height: 120,
     },

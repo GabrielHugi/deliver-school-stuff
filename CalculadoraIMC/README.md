@@ -19,15 +19,19 @@ npx expo start --tunnel
 
 #### IdealWeight
 
-Usei a formula provida para calcular os pesos ideais e usei o Math.round para aredondar o valor.
+Usei a formula provida para calcular os pesos ideais e usei o Math.round para aredondar o valor. 
 
 #### DisplayIMCRecomendations
 
 Usei as tags View (div) e Image (img) e um pouco de arte para fazer esse arquivo.
 
+#### Classification
+
+Usei if para mostrar a classificação do usuário baseado no IMC dele
+
 #### Geral
 
-Adicionei alguns componentes extras e usei css para deixar tudo bonito
+Adicionei alguns componentes extras e usei css para deixar tudo bonito. Integrei os meus componentes adicionais a os componentes já existentes para fazer tudo funcionar junto.
 
 #### Vídeo
 

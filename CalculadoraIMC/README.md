@@ -28,3 +28,7 @@ Usei as tags View (div) e Image (img) e um pouco de arte para fazer esse arquivo
 #### Geral
 
 Adicionei alguns componentes extras e usei css para deixar tudo bonito
+
+#### Vídeo
+
+No youtube: https://youtu.be/7ZAuBFIXMWE?si=9PnKdPRph_GPwD-Y
